@@ -868,7 +868,7 @@ body {
 /* Tablet optimization */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .container {
-        max-width: 600px;
+        max-width: 500px;
     }
 
     .weather-icon {
@@ -919,7 +919,7 @@ body {
     }
 
     .search-box {
-        max-width: 800px;
+        max-width: 495px;
     }
     
     .search-box input {
