@@ -272,7 +272,7 @@ body {
 
 .search-box input {
     width: 100%;
-    max-width:495px;
+    max-width:395px;
     padding: 0.8rem;
     border: 2px solid var(--border-color);
     border-radius: 0.5rem;
@@ -721,6 +721,7 @@ body {
 
     .search-box input {
         width: 100%;
+        max-width:495px;
         padding: 1rem;
         font-size: 1rem;
     }
