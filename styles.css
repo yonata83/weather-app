@@ -915,7 +915,7 @@ body {
     }
 
     .info-item {
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     .search-box {
