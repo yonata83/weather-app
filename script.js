@@ -87,7 +87,7 @@ function formatTime(timestamp) {
 async function getCoordinates(location) {
     try {
         const response = await fetch(
-            `http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=5&appid=${API_KEY}`
+            `https://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=5&appid=${API_KEY}`
         );
         const data = await response.json();
         
